@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+.bg-color{
+	background-color: #f6f9f9; 
+}
+nav{
+	padding-top: 25px !important;
+	padding-bottom: 25px !important;
+	
+}
+.navbar-toggler{
+	border:1px solid #15a4fa ;
+   	
+}
+
+.navbar-toggler span{
+	display: block;
+	width: 25px;
+	height: 5px;
+	margin: 5px 0;
+	background-color: #15a4fa;
+}
+
+.navbar-nav .nav-link{
+
+color: #2d3950;
+
+font-size: 16px;
+
+text-transform: uppercase;
+
+font-weight: 600;
+
+padding-left: 12px !important;
+
+padding-right: 12px !important;
+}
+.banner-section{
+	background-image: url(images/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner-section .row{
+ height: 800px;
+}
+.banner-section h1{
+	font-size: 120px;
+    color: #fff;
+    font-weight: 600;
+}
+.banner-section span {
+    width: 100%;
+    height: 2px;
+    background: #15a4fa;
+    display: block;
+}
+.banner-section p{
+ color: #fff;
+ font-size: 18px;
+ margin: 10px 0 40px;
+}
+.banner-section button{
+	padding: 12px 35px;
+	font-size: 18px;
+	color: #fff;
+	border:1px solid #15a4fa;
+}
+.banner-section button:hover{
+	background-color: #15a4fa;
+	color: #fff;
+}
+.banner-section a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    display: block;
+    transform: translateY(180px);
+}
+.about-section{
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.about-section h1{
+	text-align: center;
+	color: #2d3950;
+}
+.about-section p{
+ color: #999999;
+ text-align: center;
+}
+.service-section{
+	padding-top: 60px;
+}
+.service{
+	text-align: center;
+	padding-bottom: 64px;
+}
+.service span {
+    font-size: 52px;
+    color: #fff;
+    background: linear-gradient(to right, rgba(72,186,255,1) 50%,rgba(95,195,255,1) 50%);
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    line-height: 100px
+}
+.service p{
+	color: #999999;
+	text-align: center;
+	margin: 0 auto;
+
+}
+.service h2{
+	text-align: center;
+	color: #2d3950;
+	font-weight: 500;
+	margin: 26px 0 16px;
+
+
+}
+
+.showcase-section{
+	text-align: center;
+	padding: 85px 0 115px;
+}
+
+.showcase{
+	position: relative;
+	margin:10px 0 10px;
+}
+.showcase ul li{
+	padding: 8px;
+}
+
+.showcase ul{
+    position: absolute;
+   bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    opacity: 0;
+    transition-duration: 0.5s;
+    
+}
+.showcase ul:hover{
+	opacity: 1;
+	transition-duration: 1s;
+	
+}
+
+.showcase ul li a {
+    color: #ffffff;
+    background-color: transparent;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.showcase::before{
+	content: "";
+	position: absolute;
+	background: #15a4fac4;
+	width: 0;
+	height: 0;
+	left: 0;
+	top: 0;
+	transition-duration: 0.4s;
+}
+.showcase:hover::before{
+	height: 100%;
+	width: 100%;
+}
+
+.contact-section{
+	background-image: url(images/fottergallary.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-top: 65px;
+	padding-bottom: 120px;
+
+}
+.contact-section::before{
+	content: "";
+	background-color: #2d3950;
+	opacity:0.9;
+	
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.contact-section h1{
+	color: #ffffff;
+}
+.contact-section p{
+	color: #8e8f91;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #2b364b00;
+    background-clip: padding-box;
+    border: 1px solid #999999;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}    label{
+	color:#b2b5bb;
+}
+form .btn{
+	font-size: 15px;
+	color: #fff;
+	border:1px solid #15a4fa;
+	height: 40px;
+ width: 120px;
+}
+
+form .btn:hover{
+	background-color: #15a4fa;
+	color: #fff;
+}
+
+footer{
+	padding: 30px 0;
+}
+footer p{
+	
+    color: #999999;
+    font-size: 15px;
+    margin: 0;
+    position: absolute;
+    padding-top: 5px;
+}
+footer ul{
+	
+}
+footer ul li{
+	padding-left: 5px;
+}
+footer ul li a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-color: #15a4fa;
+	color: #fff;text-align: center;
+	line-height: 40px;
+	border-radius: 4px;
+	border:1px solid #15a4fa;
+	position: relative;
+}
+footer ul li a:hover{
+	background: transparent;
+
+}
